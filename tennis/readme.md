@@ -4,9 +4,9 @@
 
 - Modify `BASE_DIR` in `preprocessing.py` to where the unzipped tennis data is stored on your local machine.
 
-- Change the paths in the import script to where the tennis data is stored on your local machine.
-
 - Run `preprocessing.py` to clean up the missing values in the CSV files (the SQL import chokes on the "NA"s in integer columns).
+
+- Change the paths in `import.sql` to where the sanitized tennis data is stored on your local machine.
 
 - Run `import.sql` to create table schemas and import the CSV files.
 
